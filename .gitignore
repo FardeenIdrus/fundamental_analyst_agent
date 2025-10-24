@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Data files
+data/raw/*
+data/processed/*
+*.csv
+*.json
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# API Keys
+.env
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+
+# Logs
+*.log
